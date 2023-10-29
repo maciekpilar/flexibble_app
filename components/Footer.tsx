@@ -5,6 +5,7 @@ import Link from "next/link";
 type FooterColumnLinkProps = {
   linkTitle: string;
   href: string;
+  key: string;
 };
 type FooterColumnProps = {
   title: string;
@@ -16,7 +17,7 @@ const FooterColumn = ({ title, links }: FooterColumnProps) => (
     <h4 className="font-semibold">{title}</h4>
     <ul className="flex flex-col gap-2 font-normal">
       {links.map((link) => (
-        <Link key={link.href} href={link.href}>
+        <Link key={link.key} href={link.href}>
           {link.linkTitle}
         </Link>
       ))}
