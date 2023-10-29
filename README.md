@@ -33,6 +33,7 @@ It will be think to do later!
 - Mapping,
 - Responsive Web Design (RWD),
 - Database,
+- Pagination,
 - SSR,
 - NextAuth
 - JsonWebToken
