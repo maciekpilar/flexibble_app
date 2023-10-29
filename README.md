@@ -1,36 +1,55 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+![](./readmeImg/mockup.png)
+# Flexibble - Fullstack App
 
-## Getting Started
+**Live Preview: [Here](https://flexibble-steel-psi.vercel.app)**
 
-First, run the development server:
+Fully responsive and modern looking Dribble Clone. Remember, tt's not full functionaly project!
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+---
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+**NextJS 13, Tailwind and Grafbase** made as a practice project. There is fullstack app, with CRUD. App as Dribble. In this project I learned how to create modern UI, understand how is Tailwind working and Tailwind best practices. Now I know how to use **GraphQL**, add, edit and delete elements also with filtering by links. By this project I betterment also my JS and Next skills. <br> The page contains multiple views:
+- Home page,
+- Login/SignIn by google (OAuth 2.0),
+- Modal view (Details, Add and Edit)
+- Profil page,
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+### What you can do?
+- Login/SignIn,
+- Add, edit and delete project (You have to reload page after operation),
+- Look at other people projects,
+- Check users profiles with their projects,
+- Use filters for categories
+This app is working little bit slow. But...
+It will be think to do later!
 
-## Learn More
+### This app can be expanded:
+- Improve performance,
+- Add other pages and links,
+- Add auto reload after adding/deleting/editing element
 
-To learn more about Next.js, take a look at the following resources:
+## In project are used: 
+- Reuseable components,
+- Mapping,
+- Responsive Web Design (RWD),
+- Database,
+- SSR,
+- NextAuth
+- JsonWebToken
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## Tools Used
+1. JavaScript (NextJS 13 + TypeScript)
+2. Vite
+3. Tailwind (Styles)
+4. Vercel (Deployment)
+5. VSCode (Code Editor)
+6. Grafbase (Database)
+7. HeadlessUI (Components)
+8. Cloudinary
+<br>
+<br>
+<br>
+Deploy on Vercel free,
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+[Link to tutorial with JSMastery](https://www.youtube.com/watch?v=986hztrfaSQ)
