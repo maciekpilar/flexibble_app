@@ -3,7 +3,7 @@
 
 **Live Preview: [Here](https://flexibble-steel-psi.vercel.app)**
 
-Fully responsive and modern looking Dribble Clone. Remember, tt's not full functionaly project!
+Fully responsive and modern looking Dribble Clone. Remember, it's not full functionaly project!
 
 
 ---
